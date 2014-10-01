@@ -55,7 +55,7 @@ class SQLAlchemyIndex (Index):
         if database is None:
             cfg = config.load()
             database = cfg.sqlalchemy_index_database
-        self._engine = sqlalchemy.create_engine(database)
+        self._engine = sqlalchemy.create_engine(database, pool_recycle=3600)
         self._session = sqlalchemy.orm.sessionmaker(bind=self._engine)
         self.version = 1
         self._setup_database()
