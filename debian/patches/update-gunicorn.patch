@@ -1,0 +1,11 @@
+--- a/requirements/main.txt
++++ b/requirements/main.txt
+@@ -2,7 +2,7 @@
+ Flask==0.10.1
+ Flask-cors==1.8.0
+ gevent==1.0.1
+-gunicorn==19.1
++gunicorn==19.1.1
+ PyYAML==3.11
+ requests==2.3.0
+ rsa==3.1.4
