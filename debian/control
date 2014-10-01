@@ -1,0 +1,31 @@
+Source: docker-registry
+Maintainer: Docker Registry Contributors <docker-dev@googlegroups.com>
+Section: python
+Priority: optional
+Build-Depends: python-setuptools (>= 0.6b3), python-all (>= 2.6.6-3), debhelper (>= 7.4.3)
+Standards-Version: 3.9.1
+
+Package: python-docker-registry
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+Description: Registry server for Docker
+ Docker-Registry
+ ===============
+ .
+ [![Build Status](https://travis-ci.org/docker/docker-registry.png)](https://travis-ci.org/docker/docker-registry)
+ .
+ About this document
+ ===================
+ .
+ As the documentation evolves with different registry versions, be sure that before reading any further you do:
+ .
+  * check which version of the registry you are running
+  * switch to the corresponding tag to access the README that matches your product version
+ .
+ The stable, released version is currently the [0.8.0 tag](https://github.com/docker/docker-registry/tree/0.8.0).
+ .
+ .
+ Quick start
+ ===========
+ .
+ The fastest way to get running: 

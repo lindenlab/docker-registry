@@ -1,0 +1,30 @@
+Source: docker-registry-core
+Maintainer: Docker <dev@docker.com>
+Section: python
+Priority: optional
+Build-Depends: python-setuptools (>= 0.6b3), python-all (>= 2.6.6-3), debhelper (>= 7)
+Standards-Version: 3.9.1
+
+Package: python-docker-registry-core
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+Description: Docker registry core package
+ # Docker registry core
+ .
+ > core package for docker-registry (drivers) developers
+ .
+ [![PyPI version][pypi-image]][pypi-url]
+ .
+ ## TL;DR
+ .
+ If you hack on the registry itself, read the registry developer doc.
+ .
+ If you want to write your own storage driver, this here is for you, but there is no tldr!
+ .
+ .
+ ## What?
+ .
+ .
+ ## License
+ .
+ .
