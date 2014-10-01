@@ -1,0 +1,5 @@
+docker-registry (0.9.0-1) unstable; urgency=low
+
+  * source package automatically created by stdeb 0.6.0+git
+
+ -- Don Kjer <don@lindenlab.com>  Tue, 02 Sep 2014 23:59:35 +0000
